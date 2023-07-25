@@ -61,6 +61,7 @@
 }
 .card_main_block
 {
+    cursor: pointer;
     height: 15rem;
     width: 27rem;
     border-radius: 6px;
@@ -111,6 +112,7 @@
 }
 .last_img
 {
+    cursor: pointer;
     margin-top: 0.5%;
     width: 99%;
     margin-left: 0.5%;

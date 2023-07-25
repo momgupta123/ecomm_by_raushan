@@ -12,7 +12,7 @@ const Headingtop = () => {
     "Homes",
     "Appliances",
     "Travel",
-    "Beauty-Toys-More",
+    "Beauty-Toys",
   ]);
   let navigate = useNavigate();
   useEffect(() => {}, []);

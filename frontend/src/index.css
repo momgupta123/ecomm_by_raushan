@@ -13,7 +13,8 @@ body {
 body::-webkit-scrollbar {
   width: 8px;
   border-radius: 4px;
-  background-color: #2385d6;
+  /* background-color: #2385d6; */
+  background: linear-gradient(to right, red, blue);
 }
 body::-webkit-scrollbar-thumb {
   height: 12px;

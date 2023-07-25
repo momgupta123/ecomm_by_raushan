@@ -1,9 +1,15 @@
 .main_navbar_block
 {
-    /* background-color: rgb(33, 24, 24); */
+    /* background-color: rgb(33, 24, 24);  */
+    
 }
+
+/* .kuta{
+    background: linear-gradient(to right, red, blue);
+} */
 .navlist
 {
+    cursor: pointer;
     font-weight: 700 !important;
 }
 .search_main_block

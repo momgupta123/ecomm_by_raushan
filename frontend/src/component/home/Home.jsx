@@ -9,12 +9,13 @@ import Footer from "../footer/Footer";
 import axios from "axios";
 
 const Home = () => {
-  console.log("hiiiii dolly")
+  
   const [product1, setProduct1] = useState();
   const crusaldata = [
     
+    "https://assets.aboutamazon.com/dims4/default/3414bf7/2147483647/strip/false/crop/3000x1200+0+0/resize/1486x594!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fe5%2F05%2Fb146a5444e46a10b9b721cc5b932%2Fbboty-bookwall-3000x1200-final-jb-edit.jpg",
     "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wearables/Unrec/GW/August/Unrec_DesktopTallHero_3000x1200._CB630557043_.jpg",
-    "https://images-eu.ssl-images-amazon.com/images/G/31/img2020/img21/apparelGW/U599/MAY22/APAY/WA_3000._CB637495559_.jpg",
+    "https://img.freepik.com/free-photo/excited-girl-open-up-shopping-bags-gasping-amazed-checking-out-gifts-her-with-happy-face-sta_1258-119591.jpg?w=1970",
     "https://images-eu.ssl-images-amazon.com/images/G/31/prime/ACQ/Homepage_DesktopHeroTemplate_3000x1200._CB630403302_.jpg",
   ];
   useEffect(() => {

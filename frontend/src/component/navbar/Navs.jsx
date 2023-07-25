@@ -19,7 +19,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import InputBase from "@mui/material/InputBase";
 import AccountCircle from "@mui/icons-material/AccountCircle";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import CameraRoundedIcon from "@mui/icons-material/CameraRounded";
+import StoreIcon from '@mui/icons-material/Store';
 const drawerWidth = 240;
 const navItems = ["About", "Contact"];
 
@@ -34,7 +34,7 @@ const Navs = (props) => {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        Ekart
+       Shopping
       </Typography>
       <Divider />
       <List>
@@ -103,6 +103,7 @@ const Navs = (props) => {
   return (
     <>
       <Box sx={{ display: "flex" }} className={ncs.main_navbar_block}>
+       
         <AppBar component="nav">
           <Toolbar>
             <Typography
@@ -110,7 +111,8 @@ const Navs = (props) => {
               component="div"
               sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
             >
-              <CameraRoundedIcon />
+              <StoreIcon />
+              {/* <CameraRoundedIcon /> */}
             </Typography>
 
             <IconButton
@@ -125,10 +127,12 @@ const Navs = (props) => {
             <Typography
               variant="h6"
               component="div"
+              
               sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
               onClick={()=> navigate("/")}
+           
             >
-              Ekart
+            Shopping
             </Typography>
             <Typography
               variant="h6"
@@ -164,7 +168,7 @@ const Navs = (props) => {
                 <SearchIcon />
               </SearchIconWrapper>
               <StyledInputBase
-                placeholder="Search…"
+                placeholder="Search by raushsn …"
                 inputProps={{ "aria-label": "search" }}
               />
             </Search>
